@@ -1,0 +1,17 @@
+python eval_ir.py cacm_gold_std.txt example_results_file.txt
+
+python IR_engine.py -p -s -o test1.txt
+
+
+
+python eval_ir.py cacm_gold_std.txt answers.txt
+
+
+
+
+
+
+
+
+#notes 
+in IR_engine, there is a for loop that calls the for_query function each time. so each time it loops it prints each query.
