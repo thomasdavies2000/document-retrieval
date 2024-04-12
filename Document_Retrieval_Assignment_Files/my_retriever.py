@@ -6,7 +6,7 @@ import operator
 class Retrieve:
     
     # Create new Retrieve object storing index and term weighting
-    # scheme. (You can extend this method, as required.)
+    # scheme
     def __init__(self, index, term_weighting):
         self.index = index
         self.term_weighting = term_weighting
